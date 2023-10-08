@@ -12,6 +12,17 @@
       "*.sqlite-journal"
     ]
   },
+  "plugins": {
+    "paths": [
+      {
+        "path": "./plugins",
+        "encapsulate": false
+      },
+      {
+        "path": "./routes"
+      }
+    ]
+  },
   "migrations": {
     "dir": "migrations"
   },

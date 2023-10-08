@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@platformatic/db':
+    specifier: ^1.2.0
+    version: 1.2.0
   platformatic:
     specifier: ^1.2.0
     version: 1.2.0

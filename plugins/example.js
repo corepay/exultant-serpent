@@ -2,5 +2,5 @@
 'use strict'
 /** @param {import('fastify').FastifyInstance} fastify */
 module.exports = async function (fastify, opts) {
-  fastify.decorate('example', 'people-service')
+  fastify.decorate('example', 'library-app')
 }
